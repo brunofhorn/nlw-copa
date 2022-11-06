@@ -7,7 +7,7 @@ import {
   Roboto_500Medium,
   Roboto_700Bold,
 } from '@expo-google-fonts/roboto';
-import { Pools } from './src/screens/Pools';
+import { Find } from './src/screens/Find';
 import { AuthContextProvider } from './src/contexts/AuthContext';
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
           backgroundColor='transparent'
           translucent
         />
-        {fontsLoaded ? <Pools /> : <Loading />}
+        {fontsLoaded ? <Find /> : <Loading />}
       </AuthContextProvider>
     </NativeBaseProvider>
   );

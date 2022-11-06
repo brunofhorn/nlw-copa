@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "nlw-copa-mobile",
-    "slug": "nlw-copa-mobile",
+    "owner": "brunofhorn",
+    "name": "nlw-copa",
+    "slug": "nlw-copa",
     "scheme": "nlw-copa-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
